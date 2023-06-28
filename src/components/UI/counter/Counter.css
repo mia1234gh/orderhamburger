@@ -1,0 +1,24 @@
+.counter {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.minus,
+.add {
+
+    font-size: 30rem;
+}
+
+.minus {
+    color: darkgray;
+}
+
+.add {
+    color: brown;
+}
+
+.counter span {
+    padding: 0 4rem;
+}

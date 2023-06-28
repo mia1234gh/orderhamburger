@@ -1,0 +1,49 @@
+.meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1rem gray solid;
+    padding: 30rem;
+}
+
+.meal-img {
+    width: 400rem;
+}
+
+.meal-img img {
+    width: 100%;
+}
+
+.details {
+    margin: 10rem;
+    padding-right: 40rem;
+    padding-left: 20rem;
+}
+
+.details h1 {
+    font-size: 20rem;
+    font-weight: 800;
+    color: black;
+}
+
+.details p {
+    font-size: 12rem;
+    font-weight: 400;
+    color: darkgrey;
+    letter-spacing: 2px;
+}
+
+.details .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20rem;
+    font-weight: 400;
+}
+
+.details .price span {
+    font-weight: 800;
+    font-size: 12rem;
+    letter-spacing: 1px;
+}

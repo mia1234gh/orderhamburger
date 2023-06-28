@@ -1,0 +1,104 @@
+.cart {
+    position: fixed;
+    left: 60rem;
+    bottom: 30rem;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650rem;
+    height: 70rem;
+    border-radius: 30rem;
+    opacity: 0.85;
+    z-index: 9999;
+    -webkit-border-radius: 30rem;
+    -moz-border-radius: 30rem;
+    -ms-border-radius: 30rem;
+    -o-border-radius: 30rem;
+}
+
+.cart .icon-area {
+    color: red;
+    font-size: large;
+    font-weight: 500;
+    position: relative;
+}
+
+.cart .icon {
+    font-size: 50rem;
+    margin-left: 20rem;
+
+}
+
+.cart .icon-area .total-amount {
+    font-size: 18rem;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #eab116;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.cart .total-price {
+    color: white;
+    font-size: 30rem;
+    font-weight: 500;
+    transform: translateX(-180rem);
+    -webkit-transform: translateX(-180rem);
+    -moz-transform: translateX(-180rem);
+    -ms-transform: translateX(-180rem);
+    -o-transform: translateX(-180rem);
+}
+
+.cart .not {
+    color: rgb(183, 181, 181);
+    font-size: 25rem;
+    font-weight: 500;
+    text-align: center;
+    transform: translateX(-150rem);
+    -webkit-transform: translateX(-150rem);
+    -moz-transform: translateX(-150rem);
+    -ms-transform: translateX(-150rem);
+    -o-transform: translateX(-150rem);
+}
+
+.cart .buy {
+    border: none;
+    outline: none;
+    background-color: #eab116;
+    border-radius: 30rem;
+    width: 150rem;
+    height: 100%;
+    font-size: 20rem;
+    font-weight: 500;
+    -webkit-border-radius: 30rem;
+    -moz-border-radius: 30rem;
+    -ms-border-radius: 30rem;
+    -o-border-radius: 30rem;
+}
+
+.cart .disabled {
+    border: none;
+    outline: none;
+    background-color: rgb(84, 81, 81);
+    color: rgb(183, 181, 181);
+    border-radius: 30rem;
+    width: 150rem;
+    height: 100%;
+    font-size: 20rem;
+    font-weight: 500;
+    -webkit-border-radius: 30rem;
+    -moz-border-radius: 30rem;
+    -ms-border-radius: 30rem;
+    -o-border-radius: 30rem;
+}
